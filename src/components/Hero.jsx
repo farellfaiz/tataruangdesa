@@ -108,8 +108,8 @@ const Hero = () => {
             pos="relative"
             marginEnd="-16rem"
             w="60rem"
-            src="/demo3.png"
-            alt="Multihazard mitigation dashboard"
+            src="/yoho.png"
+            alt="Preview Dashboard"
             borderRadius="lg"
           />
         </Flex>

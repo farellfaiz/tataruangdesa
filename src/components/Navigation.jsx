@@ -10,6 +10,7 @@ import { MenuGroup } from "@chakra-ui/menu";
 import { HiAcademicCap } from "react-icons/hi";
 import { RiGovernmentFill } from "react-icons/ri";
 import { BsPeopleFill } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 const Navigation = () => {
   return (
@@ -21,17 +22,16 @@ const Navigation = () => {
         <HStack justify="space-between">
           <Image src="/aksitaru.png" alt="Logo Aksitaru" cursor="pointer" h="40px" />
           <HStack spacing={4}>
-            {/* <Link to="/"> */}
+            <Link to="/">
             <Button variant="ghost" fontWeight="normal">
               Beranda
             </Button>
-            {/* </Link> */}
-            {/* <Link to="/research"> */}
+            </Link>
+            <Link to="/panduan">
             <Button variant="ghost" fontWeight="normal">
               Panduan
             </Button>
-            {/* </Link> */}
-            {/* <Link to="/about"> */}
+            </Link>
             <Menu>
               <MenuButton
                 as={Button}
@@ -42,14 +42,13 @@ const Navigation = () => {
                 Data
               </MenuButton>
               <MenuList>
-                <MenuItem>Cari Peta Resolusi Tinggi</MenuItem>
-                <MenuItem>Cari Peluang Investasi</MenuItem>
+                <Link to='/peta'><MenuItem>Cari Peta Resolusi Tinggi</MenuItem></Link>
+                <Link to='/investasi'><MenuItem>Cari Peluang Investasi</MenuItem></Link>
               </MenuList>
             </Menu>
-            {/* </Link> */}
           </HStack>
-          {/* <Link to={"/dashboard"}> */}
           <HStack spacing='10px'>
+          <Link to={"/dashboard"}>
             <Button
               bgGradient="linear(to-br, #0047A1, #61B2DD)"
               _hover={{ bgGradient: "linear(to-br, #61B2DD, #0047A1)" }}
@@ -59,6 +58,7 @@ const Navigation = () => {
             >
               Dashboard
             </Button>
+          </Link>
             <Menu>
               <MenuButton
                 as={IconButton}
@@ -75,7 +75,6 @@ const Navigation = () => {
               </MenuList>
             </Menu>
           </HStack>
-          {/* </Link> */}
         </HStack>
       </Container>
     </Box>

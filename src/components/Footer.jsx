@@ -48,7 +48,7 @@ import {
                     <Text fontSize="xl" fontWeight="bold">
                       Tata Ruang Desa
                     </Text>
-                    <Text fontSize="sm">AKSITARU Indonesia (Akademi Kader Teknik, Konstruksi dan Tata Ruang)</Text>
+                    <Text fontSize="sm">AKSITARU Indonesia (Akademi Kader Teknik, Konstruksi, dan Tata Ruang)</Text>
                   </Box>
                 </Box>
               </HStack>

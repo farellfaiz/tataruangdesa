@@ -12,7 +12,7 @@ import { FaFileContract, FaGlobeAsia } from "react-icons/fa";
 import * as React from "react";
 import { ChevronDownIcon } from "@chakra-ui/icons";
 import { Menu, MenuButton, MenuItem, MenuList } from "@chakra-ui/menu";
-//   import { Link } from "react-router-dom";
+  import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -67,7 +67,7 @@ const Hero = () => {
               Platform GIS tata ruang untuk kemajuan desa melalui peta potensi
               dan rencana investasi desa-desa di Indonesia
             </Text>
-            {/* <Link to='/dashboard'> */}
+            <Link to='/dashboard'>
             <Button
               bgGradient="linear(to-br, #0047A1, #61B2DD)"
               _hover={{ bgGradient: "linear(to-br, #61B2DD, #0047A1)" }}
@@ -79,22 +79,21 @@ const Hero = () => {
             >
               Dashboard
             </Button>
-            {/* </Link> */}
-            {/* <Link to="/research"> */}
+            </Link>
             <Menu>
-              <MenuButton
-                as={Button}
-                rightIcon={<ChevronDownIcon />}
-                leftIcon={<FaFileContract />}
-                size='lg'
-                ml='15px'
-                mt="6"
-              >
-                Data
-              </MenuButton>
+                <MenuButton
+                  as={Button}
+                  rightIcon={<ChevronDownIcon />}
+                  leftIcon={<FaFileContract />}
+                  size='lg'
+                  ml='15px'
+                  mt="6"
+                >
+                  Data
+                </MenuButton>
               <MenuList>
-                <MenuItem>Cari Peta Resolusi Tinggi</MenuItem>
-                <MenuItem>Cari Peluang Investasi</MenuItem>
+                <Link to='/peta'><MenuItem>Cari Peta Resolusi Tinggi</MenuItem></Link>
+                <Link to='/investasi'><MenuItem>Cari Peluang Investasi</MenuItem></Link>
               </MenuList>
             </Menu>
             {/* </Link> */}

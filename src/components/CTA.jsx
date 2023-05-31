@@ -2,7 +2,7 @@ import { chakra, Stack, Container, Box, Button, MenuButton, Menu, MenuList, Menu
 import { FaFileContract, FaGlobeAsia } from "react-icons/fa";
 import * as React from "react";
 import { ChevronDownIcon } from "@chakra-ui/icons";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const CTA = () => {
   return (
@@ -44,7 +44,7 @@ const Banner = () => {
         spacing={{ base: 0, sm: 3 }}
         w={{ base: "100%", sm: "auto" }}
       >
-        {/* <Link to="/dashboard"> */}
+        <Link to="/dashboard">
           <Button
             color="white"
             variant="solid"
@@ -59,16 +59,14 @@ const Banner = () => {
           >
             Lihat dashboard
           </Button>
-        {/* </Link> */}
-        {/* <Link to="/research"> */}
+        </Link>
           <Menu>
             <MenuButton as={Button} size='lg' rounded='md' rightIcon={<ChevronDownIcon />} leftIcon={<FaFileContract />} lineHeight={1} mb={{ base:2, sm:0 }} >Cari data</MenuButton>
             <MenuList>
-              <MenuItem>Cari Peta Resolusi Tinggi</MenuItem>
-              <MenuItem>Cari Peluang Investasi</MenuItem>
+              <Link to='/peta'><MenuItem>Cari Peta Resolusi Tinggi</MenuItem></Link>
+              <Link to='/investasi'><MenuItem>Cari Peluang Investasi</MenuItem></Link>
             </MenuList>
           </Menu>
-        {/* </Link> */}
       </Stack>
     </Stack>
   );

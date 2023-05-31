@@ -17,41 +17,23 @@ import {
 
 const QnAs = [
   {
-    heading: "Kondisi geografis Indonesia",
+    heading: "Mengenai Desa di Indonesia",
     content:
-      "Indonesia merupakan negara yang terletak pada pertemuan tiga lempeng tektonik yaitu lempeng Indo-Australia, lempeng Eurasia, dan lempeng Pasifik yang memposisikan Indonesia sebagai negara rawan bencana baik dari aktivitas tektonik maupun vulkanik (Rahma, 2018).",
+      "Pedesaan di Indonesia memiliki kondisi yang sangat beragam dan memiliki banyak potensi. Dari pesisir hingga pegunungan, dari dataran rendah hingga pulau terpencil, setiap daerah pedesaan menawarkan kekayaan alam, budaya, dan sumber daya manusia yang dapat dikembangkan untuk pembangunan ekonomi, pariwisata, pertanian, dan industri kreatif. Dengan pemanfaatan yang tepat, potensi pedesaan Indonesia dapat berkontribusi secara signifikan terhadap pertumbuhan dan kesempatan ekonomi bagi masyarakat di seluruh negeri.",
     // icon: FaSatellite,
   },
   {
-    heading: "Kondisi tektonik di Indonesia",
+    heading: "Pentingnya Informasi Geospasial",
     content:
-      "Pada bagian selatan dan timur Indonesia terdapat sabuk vulkanik (volcanic arc) yang memanjang dari Pulau Sumatera, Jawa, Nusa Tenggara, hingga Sulawesi, yang sisinya berupa pegunungan vulkanik tua dan dataran rendah yang sebagian didominasi oleh rawa-rawa. Kondisi tersebut sangat berpotensi sekaligus rawan bencana seperti letusan gunung berapi, gempa bumi, tsunami, banjir dan tanah longsor (Siswanto, 2017).",
+      "Informasi geospasial memiliki peranan penting dalam perencanaan tata ruang desa dan memiliki potensi investasi yang signifikan. Informasi geospasial memberikan data dan pemetaan yang akurat tentang aspek fisik dan geografis suatu wilayah, seperti batas lahan, topografi, tata guna lahan, dan infrastruktur yang ada. Dengan memiliki informasi ini, pengambil kebijakan dapat melakukan analisis yang mendalam untuk merencanakan tata ruang desa secara efisien dan efektif. Selain itu, informasi geospasial juga memberikan peluang investasi yang menarik, terutama dalam pengembangan properti, sektor pertanian, pariwisata, dan energi terbarukan. Dengan memanfaatkan informasi geospasial dengan baik, desa-desa dapat mengoptimalkan potensi investasi mereka dan mendorong pertumbuhan ekonomi yang berkelanjutan.",
     // icon: FaLaptopCode,
   },
   {
-    heading: "Hidrometeorologi dan kondisinya",
+    heading: "Peta, Potensi, Rencana, dan Investasi",
     content:
-      "Kondisi iklim di Indonesia yang bersifat tropis menyebabkan Indonesia memiliki curah hujan yang tinggi (Hidayat dan Farihah, 2020). Kondisi iklim seperti ini ditambah dengan perubahan cuaca, suhu, dan arah angin yang cukup ekstrim serta dengan kondisi topografi permukaan dan batuan yang relatif beragam dapat meningkatkan potensi bencana hidrometeorologi seperti banjir dan tanah longsor (Sadat, 2019). Bencana hidrometeorologi adalah bencana alam yang dipengaruhi oleh faktor cuaca, yang dipengaruhi oleh curah hujan, suhu, kelembapan, dan angin. BNPB mencatat bencana hidrometeorologi mendominasi bencana alam di Indonesia.",
+      "Peta memiliki peran penting dalam meningkatkan investasi dan memaksimalkan potensi desa untuk mencapai rencana yang ada. Dengan menggunakan peta, informasi tentang sumber daya alam, infrastruktur, tata guna lahan, dan potensi ekonomi desa dapat ditampilkan dengan jelas dan terstruktur. Hal ini memungkinkan para investor dan pengambil keputusan untuk melakukan analisis yang mendalam, mengidentifikasi peluang investasi yang menjanjikan, dan merencanakan kegiatan pengembangan yang strategis. Selain itu, peta juga memfasilitasi komunikasi yang efektif antara pemerintah, masyarakat lokal, dan pemangku kepentingan lainnya, sehingga dapat mencapai konsensus dalam merencanakan dan melaksanakan program pengembangan desa. Dengan peta sebagai alat yang kuat, desa-desa dapat mengoptimalkan potensi mereka, menarik investasi yang lebih besar, dan mencapai tujuan pembangunan yang ada secara efisien dan berkelanjutan.      .",
     // icon: FaLaptopCode,
   },
-  {
-    heading: "Apa akibatnya?",
-    content:
-      "Pada tahun 2022, tercatat sebanyak 3.461 bencana di Indonesia yang didominasi oleh bencana hidrometeorologi yakni 1.493 kejadian banjir, 1.033 cuaca ekstrem, dan 628 tanah longsor. Akibat bencana tersebut, muncul kerugian baik material maupun nonmaterial. Tercatat bahwa total rumah rusak akibat bencana alam sebanyak 95.324 dan fasilitas yang rusak sebanyak 1.980 serta tercatat 844 orang meninggal dunia, 48 orang hilang, 5.330.351 orang menderita dan mengungsi, dan 8,724 luka-luka. Meskipun demikian, gempa bumi mendominasi penyebab kematian 844 jiwa sepanjang 2022 dengan angka sekitar 80 persen (BNPB, 2022).",
-    // icon: FaLaptopCode,
-  },
-  {
-    heading: "Climate Outlook 2023",
-    content:
-      "Pada akhir tahun 2022, Badan Meteorologi, Klimatologi, dan Geofisika (BMKG) menyampaikan Pandangan Iklim tahun 2023 atau Climate Outlook 2023. Di dalam Climate Outlook tersebut, dijelaskan bahwa potensi curah hujan tahunan pada tahun 2023 diprediksi melebihi rata-rata yang dapat memicu bencana seperti banjir dan tanah longsor. Selain itu, BMKG juga mewaspadai masyarakat akan potensi gempa karena dalam 3 tahun terakhir, terdapat peningkatan aktivitas kegempaan (BMKG, 2022).",
-    // icon: FaLaptopCode,
-  },
-  {
-    heading: "Machine Learning",
-    content:
-      "Berdasarkan tingginya potensi kejadian dan tingginya potensi kerusakan, diperlukan pemodelan optimalisasi lebih lanjut untuk memodelkan kawasan multibencana yang mencakup bencana banjir, longsor, dan gempa bumi dengan mengintegrasikan metode machine learning. Fokus besar metode machine learning adalah bagaimana mengenali secara otomatis pola kompleks dan membuat keputusan cerdas berdasarkan data (Fitriyaningsih dkk., 2018). Machine learning diaplikasikan agar dapat diprediksi daerah-daerah rawan bencana berdasarkan data-data dan parameter-parameter kebencanaan agar didapatkan informasi tentang masalah kebencanaan meminimalisasi risiko bencana.",
-    // icon: FaLaptopCode,
-  }
 ];
 
 const Background = () => {
@@ -79,30 +61,52 @@ const Background = () => {
             fontWeight="normal"
             textAlign="left"
           >
-            Ada Apa dengan <Text color='#d65249' display='inline-block' fontWeight='bold'>Indonesia</Text>?
+            Sekilas tentang{" "}
+            <Text color="#d65249" display="inline-block" fontWeight="bold">
+              Desa di Indonesia
+            </Text>
+            
           </Heading>
           <Box>
-            <Accordion defaultIndex={[0]} borderRadius='md' bg='white' shadow='md' w='600px' >
-                {QnAs.map((QnA, index) => (
-              <AccordionItem borderWidth='0' borderRadius='md'>
-                <h2>
-                  <AccordionButton fontWeight='bold' _expanded={{ fontWeight: 'bold', bg:'#d65249', color:'white' }} borderRadius='md'>
-                    <Box as="span" flex="1" textAlign="left">
-                      {QnA.heading}
-                    </Box>
-                    <AccordionIcon />
-                  </AccordionButton>
-                </h2>
-                <AccordionPanel p={4}>
-                  <Text align='justify' mx='10px'>{QnA.content}</Text>
-                  <Divider h='5px' borderColor='gray.200' mt='20px' />
-                </AccordionPanel>
-              </AccordionItem>
+            <Accordion
+              defaultIndex={[0]}
+              borderRadius="md"
+              bg="white"
+              shadow="md"
+              w="600px"
+            >
+              {QnAs.map((QnA, index) => (
+                <AccordionItem borderWidth="0" borderRadius="md">
+                  <h2>
+                    <AccordionButton
+                      fontWeight="bold"
+                      _expanded={{
+                        fontWeight: "bold",
+                        bg: "#d65249",
+                        color: "white",
+                      }}
+                      borderRadius="md"
+                    >
+                      <Box as="span" flex="1" textAlign="left">
+                        {QnA.heading}
+                      </Box>
+                      <AccordionIcon />
+                    </AccordionButton>
+                  </h2>
+                  <AccordionPanel p={4}>
+                    <Text align="justify" mx="10px">
+                      {QnA.content}
+                    </Text>
+                    <Divider h="5px" borderColor="gray.200" mt="20px" />
+                  </AccordionPanel>
+                </AccordionItem>
               ))}
             </Accordion>
           </Box>
           {/* <Link to='/research'> */}
-            <Text fontSize="sm" color="blue.400">Pelajari lebih lengkap →</Text>
+          <Text fontSize="sm" color="blue.400">
+            Pelajari lebih lengkap →
+          </Text>
           {/* </Link> */}
         </Stack>
       </Stack>

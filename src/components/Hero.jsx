@@ -10,6 +10,8 @@ import {
 } from "@chakra-ui/react";
 import { FaFileContract, FaGlobeAsia } from "react-icons/fa";
 import * as React from "react";
+import { ChevronDownIcon } from "@chakra-ui/icons";
+import { Menu, MenuButton, MenuItem, MenuList } from "@chakra-ui/menu";
 //   import { Link } from "react-router-dom";
 
 const Hero = () => {
@@ -53,7 +55,7 @@ const Hero = () => {
             <Heading as="h1" size="2xl" mt="12" fontWeight="black">
               Platform
               <chakra.span
-                bgGradient="linear(to-br, #F09819, #FF512F)"
+                bgGradient="linear(to-br, #61B2DD, #0047A1)"
                 bgClip="text"
               >
                 {" "}
@@ -62,15 +64,14 @@ const Hero = () => {
               Indonesia
             </Heading>
             <Text color={mode("gray.600", "gray.400")} mt="6" fontSize="xl">
-              Optimalisasi prioritas mitigasi multibencana menggunakan data
-              penginderaan jauh (remote sensing) multisumber berbasis Machine
-              Learning
+              Platform GIS tata ruang untuk kemajuan desa melalui peta potensi
+              dan rencana investasi desa-desa di Indonesia
             </Text>
             {/* <Link to='/dashboard'> */}
             <Button
-              bgGradient="linear(to-br, #FF512F, #F09819)"
-              _hover={{ bgGradient: "linear(to-br, #F09819, #FF512F)" }}
-              _active={{ bgGradient: "linear(to-br, #bd7713, #cc4025)" }}
+              bgGradient="linear(to-br, #0047A1, #61B2DD)"
+              _hover={{ bgGradient: "linear(to-br, #61B2DD, #0047A1)" }}
+              _active={{ bgGradient: "linear(to-br, #4781a1, #053878)" }}
               leftIcon={<FaGlobeAsia />}
               color="white"
               size="lg"
@@ -80,15 +81,22 @@ const Hero = () => {
             </Button>
             {/* </Link> */}
             {/* <Link to="/research"> */}
-            <Button
-              ml="15px"
-              size="lg"
-              leftIcon={<FaFileContract />}
-              // variant='ghost'
-              mt="6"
-            >
-              Data
-            </Button>
+            <Menu>
+              <MenuButton
+                as={Button}
+                rightIcon={<ChevronDownIcon />}
+                leftIcon={<FaFileContract />}
+                size='lg'
+                ml='15px'
+                mt="6"
+              >
+                Data
+              </MenuButton>
+              <MenuList>
+                <MenuItem>Cari Peta Resolusi Tinggi</MenuItem>
+                <MenuItem>Cari Peluang Investasi</MenuItem>
+              </MenuList>
+            </Menu>
             {/* </Link> */}
           </Box>
           <Box

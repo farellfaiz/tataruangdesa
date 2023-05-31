@@ -43,19 +43,14 @@ import {
                   // p='30px'
                   // borderRadius='lg'
                 >
-                  <Image src="/ganesha.png" alt="" w="45px" h="auto" />
+                  <Image src="/aksitaru.png" alt="" w="45px" h="auto" />
                   <Box ml="15px" textAlign="left">
                     <Text fontSize="xl" fontWeight="bold">
-                      Ringgas 'Multihazard' Team
+                      Tata Ruang Desa
                     </Text>
-                    <Text fontSize="sm">Institut Teknologi Bandung</Text>
+                    <Text fontSize="sm">AKSITARU Indonesia (Akademi Kader Teknik, Konstruksi dan Tata Ruang)</Text>
                   </Box>
                 </Box>
-                <HStack bg="white" px="25px" borderRadius="10px">
-                  <Image src="/login.png" alt="" w="40px" h="auto" />
-                  <Image src="/mercator.png" alt="" w="80px" h="auto" />
-                  <Image src="/kmtg.png" alt="" w="40px" h="auto" />
-                </HStack>
               </HStack>
             </Box>
           </Box>
@@ -66,27 +61,21 @@ import {
             alignContent="center"
           >
             <Text fontSize="sm" color="subtle">
-              &copy; {new Date().getFullYear()} Ringgas Team ITB. All rights
+              &copy; {new Date().getFullYear()} AKSITARU Indonesia. All rights
               reserved.
             </Text>
             <ButtonGroup variant="ghost">
               <IconButton
                 as="a"
-                href="https://www.instagram.com/mercatorkmtg/"
+                href="https://www.instagram.com/aksitaru.id/"
                 aria-label="Instagram"
                 icon={<FaInstagram fontSize="1.25rem" />}
-              />
-              <IconButton
-                as="a"
-                href="https://github.com/farellfaiz/multihazard-priority"
-                aria-label="GitHub"
-                icon={<FaGithub fontSize="1.25rem" />}
               />
             </ButtonGroup>
           </Box>
         </Stack>
       </Container>
-      <Box w="100%" h="8px" bgGradient="linear(to-br, #F09819, #FF512F)">
+      <Box w="100%" h="8px" bgGradient="linear(to-br, #61B2DD, #0047A1)">
         {" "}
       </Box>
     </Box>

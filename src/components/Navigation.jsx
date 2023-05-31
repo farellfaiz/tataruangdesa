@@ -14,12 +14,12 @@ import { BsPeopleFill } from "react-icons/bs";
 const Navigation = () => {
   return (
     <Box w="100%" bg="white" shadow="sm">
-      <Box w="100%" h="3px" bgGradient="linear(to-br, #F09819, #FF512F)">
+      <Box w="100%" h="3px" bgGradient="linear(to-br, #61B2DD, #0047A1)">
         {" "}
       </Box>
       <Container py="15px" maxW="80%">
         <HStack justify="space-between">
-          <Image src="/login.png" alt="Logo Login" cursor="pointer" h="40px" />
+          <Image src="/aksitaru.png" alt="Logo Aksitaru" cursor="pointer" h="40px" />
           <HStack spacing={4}>
             {/* <Link to="/"> */}
             <Button variant="ghost" fontWeight="normal">
@@ -51,9 +51,9 @@ const Navigation = () => {
           {/* <Link to={"/dashboard"}> */}
           <HStack spacing='10px'>
             <Button
-              bgGradient="linear(to-br, #FF512F, #F09819)"
-              _hover={{ bgGradient: "linear(to-br, #F09819, #FF512F)" }}
-              _active={{ bgGradient: "linear(to-br, #bd7713, #cc4025)" }}
+              bgGradient="linear(to-br, #0047A1, #61B2DD)"
+              _hover={{ bgGradient: "linear(to-br, #61B2DD, #0047A1)" }}
+              _active={{ bgGradient: "linear(to-br, #4781a1, #053878)" }}
               leftIcon={<FaGlobeAsia />}
               color="white"
             >

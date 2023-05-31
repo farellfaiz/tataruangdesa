@@ -1,5 +1,7 @@
-import { chakra, Stack, Container, Box, Button } from "@chakra-ui/react";
+import { chakra, Stack, Container, Box, Button, MenuButton, Menu, MenuList, MenuItem } from "@chakra-ui/react";
 import { FaFileContract, FaGlobeAsia } from "react-icons/fa";
+import * as React from "react";
+import { ChevronDownIcon } from "@chakra-ui/icons";
 // import { Link } from "react-router-dom";
 
 const CTA = () => {
@@ -31,10 +33,10 @@ const Banner = () => {
           fontSize="2xl"
           lineHeight={1.2}
           fontWeight="bold"
-          bgGradient="linear(to-l, #FE552E, #F1951A)"
+          bgGradient="linear(to-l, #0047A1, #61B2DD)"
           bgClip="text"
         >
-          Berbagai bencana menghantui kita. Mari upayakan mitigasinya!
+          Kondisi desa dan ragamnya potensi yang dimiliki untuk bisa lebih maju
         </chakra.h2>
       </Box>
       <Stack
@@ -50,24 +52,22 @@ const Banner = () => {
             rounded="md"
             mb={{ base: 2, sm: 0 }}
             lineHeight={1}
-            bgGradient="linear(to-br, #FF512F, #F09819)"
-            _hover={{ bgGradient: "linear(to-br, #F09819, #FF512F)" }}
-            _active={{ bgGradient: "linear(to-br, #bd7713, #cc4025)" }}
+            bgGradient="linear(to-br, #0047A1, #61B2DD)"
+            _hover={{ bgGradient: "linear(to-br, #61B2DD, #0047A1)" }}
+            _active={{ bgGradient: "linear(to-br, #4781a1, #053878)" }}
             leftIcon={<FaGlobeAsia />}
           >
             Lihat dashboard
           </Button>
         {/* </Link> */}
         {/* <Link to="/research"> */}
-          <Button
-            size="lg"
-            rounded="md"
-            mb={{ base: 2, sm: 0 }}
-            leftIcon={<FaFileContract />}
-            lineHeight={1}
-          >
-            Baca riset lengkap
-          </Button>
+          <Menu>
+            <MenuButton as={Button} size='lg' rounded='md' rightIcon={<ChevronDownIcon />} leftIcon={<FaFileContract />} lineHeight={1} mb={{ base:2, sm:0 }} >Cari data</MenuButton>
+            <MenuList>
+              <MenuItem>Cari Peta Resolusi Tinggi</MenuItem>
+              <MenuItem>Cari Peluang Investasi</MenuItem>
+            </MenuList>
+          </Menu>
         {/* </Link> */}
       </Stack>
     </Stack>

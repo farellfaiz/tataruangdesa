@@ -24,7 +24,7 @@ const Dashboard = () => {
       color="white"
     >
       <Iframe
-        url="https://khadijahnurul.maps.arcgis.com/apps/dashboards/6c85b090c71c43c09d8a7db1aa6a28cb"
+        url="https://www.arcgis.com/apps/instant/sidebar/index.html?appid=dea8d0110beb433cbf55e0c27cb50434"
         width="100%"
         height="700px"
         display="initial"
